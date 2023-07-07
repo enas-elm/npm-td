@@ -6,7 +6,7 @@ Get French festivals and the details about them :
 - their dates
 - their places
 
-## Want to view more festivals ?
+## Usage
 
 This is made with the api of data.culture.gouv.fr, https://data.culture.gouv.fr/explore/dataset/panorama-des-festivals/api/?lang=fr&rows=
 

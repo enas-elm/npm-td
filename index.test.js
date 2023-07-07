@@ -1,7 +1,7 @@
 const getAPI = require('./index');
 
-test("returns array", () => {
-    const number = getAPI();
-    expect(number).toBeGreaterThanOrEqual(0);
-    expect(number).toBeLessThanOrEqual(100);
+test("returns array", async () => {
+    const fetchData = await getAPI();
+    expect(fetchData).not.toBeNull();
+    expect(fetchData).toBeInstanceOf(Array);
 });

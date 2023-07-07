@@ -20,8 +20,18 @@ return await fetch(
 
 ## Installation
 
+Insall the package in your project
+
 ```bash
 npm install enas-npm-td
+```
+
+Import the function in your js file
+
+```javascript
+const getAPI = require("enas-npm-td/index");
+
+console.log(getAPI());
 ```
 
 ## Development

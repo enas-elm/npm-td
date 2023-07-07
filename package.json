@@ -1,6 +1,6 @@
 {
   "name": "enas-npm-td",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Npm package to fetch data",
   "main": "index.js",
   "scripts": {

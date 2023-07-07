@@ -2,6 +2,7 @@ const fetch = require('node-fetch')
 
 
 async function getAPI() {
+    // change the rows parameter to get more or lesse value
     return await fetch('https://data.culture.gouv.fr/api/records/1.0/search/?dataset=panorama-des-festivals&q=&lang=fr&facet=region&rows=50')
         .then(response => {
             if (!response.ok) {

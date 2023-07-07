@@ -1,19 +1,27 @@
-# npm-td
+# French Festival Fetch 💃🎶
 
-## Run to local test
+Get French festivals and the details about them :
+
+- their themes
+- their dates
+- their places
+
+## Want to view more festivals ?
+
+This is made with the api of data.culture.gouv.fr, https://data.culture.gouv.fr/explore/dataset/panorama-des-festivals/api/?lang=fr&rows=
+
+This code will return you 50 festivals by default but if you want to find more, you can modify the parameter "rows" in the fetch URL inside the index.js file
+
+## Installation
 
 ```bash
-node build/index.js
+npm install
 ```
 
-## Run to unit test
+## Development
 
-```bash
-npm run test
-```
+- `node build/index.js` - Produces local production version
 
-## Run to check code
+- `npm run test` - Run unit test
 
-```bash
-npx eslint index.js
-```
+- `npx eslint index.js` - Run to check code with EsLint

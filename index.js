@@ -20,7 +20,7 @@ async function getAPI() {
                     city: festival.fields.libelle_commune_pour_calcul_cp_insee,
                 };
             });
-
+            console.log(festivalsInfo);
             return festivalsInfo;
         })
 

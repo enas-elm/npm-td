@@ -1,7 +1,7 @@
 {
   "name": "enas-npm-td",
   "version": "1.0.0",
-  "description": "Npm package to fecth data",
+  "description": "Npm package to fetch data",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -19,5 +19,8 @@
   "devDependencies": {
     "eslint": "^8.44.0",
     "jest": "^29.6.1"
+  },
+  "dependencies": {
+    "node-fetch": "2.0.0"
   }
 }

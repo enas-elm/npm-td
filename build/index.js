@@ -1,3 +1,7 @@
-const getRandowNumber = require('../index');
 
-console.log(getRandowNumber());
+
+const getAPI = require('../index');
+
+(async () => {
+    console.log(await getAPI())
+})();

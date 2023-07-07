@@ -1,7 +1,7 @@
-const getRandomNumber = require('./index');
+const getAPI = require('./index');
 
-test("getRandomNumber returns a int", () => {
-    const number = getRandomNumber();
+test("returns array", () => {
+    const number = getAPI();
     expect(number).toBeGreaterThanOrEqual(0);
     expect(number).toBeLessThanOrEqual(100);
 });
